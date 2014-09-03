@@ -46,8 +46,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'python-hdf4'
-copyright = u'2014, python-hdf4 authors'
+project = u'PyHDF'
+copyright = u'2014, PyHDF authors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
