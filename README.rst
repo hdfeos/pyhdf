@@ -11,8 +11,8 @@ python-hdf4 is a fork of pyhdf_ with some improvements:
 - Sphinx documentation
 - Planned: unit tests
 
-python-hdf4 is a python wrapper around the NCSA HDF version 4 library.
-The SD (Scientific Dataset), VS (Vdata) and V (Vgroup) API's 
+python-hdf4 is a python wrapper around the HDF version 4 library.
+The SD (Scientific Dataset), VS (Vdata) and V (Vgroup) APIs 
 are currently implemented. netCDF files can also be 
 read and modified.
 
