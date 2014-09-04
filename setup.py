@@ -86,14 +86,14 @@ if sys.platform == 'win32':
     # Find DLL path
     dll_path = ''
     for p in library_dirs:
-        if path.exists(p + os.path.sep + "HM423M.DLL"):
+        if path.exists(p + os.path.sep + "mfhdf.dll"):
             dll_path = p + os.path.sep
             break
     if dll_path == '':
         raise RuntimeError("Cannot find required HDF4 DLLs -- check LIBRARY_DIRS")
 
 if sys.platform == 'win32':
-    libraries = ["hm423m", "hd423m", "xdr_for_dll" ]
+    libraries = ["mfhdf", "hdf", "xdr" ]
 else:
     libraries = ["mfhdf", "df"]
 
@@ -123,12 +123,13 @@ _hdfext = Extension('pyhdf._hdfext',
                     )
 
 if sys.platform == 'win32':
-    data_files = [("pyhdf", [dll_path + x for x in ["HM423M.DLL", "HD423M.DLL"]])]
+    data_files = [("pyhdf", [dll_path + x for x in ["hdf.dll", "mfhdf.dll"]])]
 else:
     data_files = []
 
-setup(name         = 'python-hdf4',
-      author       = 'python-hdf4 authors',
+setup(name         = 'pyhdf',
+      author       = 'HDF-EOS Tools and Information Center',
+      author_email = 'eoshelp@hdfgroup.org',
       description  = 'Python interface to the NCSA HDF4 library',
       keywords     = ['hdf4', 'netcdf', 'numpy', 'python', 'pyhdf'],
       license      = 'public',
@@ -140,7 +141,7 @@ setup(name         = 'python-hdf4',
                          'through numpy arrays. netCDF files can also\n '
                          'be read and modified with pyhdf.',
       url          = 'http://www.sourceforge.net/projects/pysclint',
-      version      = '0.9',
+      version      = '0.9.0',
       packages     = ['pyhdf'],
       ext_modules  = [_hdfext],
       data_files   = data_files,
