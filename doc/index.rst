@@ -1,9 +1,9 @@
-.. python-hdf4 documentation master file, created by
+.. pyhdf documentation master file, created by
    sphinx-quickstart2 on Sun Jul 27 02:07:57 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PyHDF documentation!
+Welcome to pyhdf documentation!
 =======================================
 
 Contents:
