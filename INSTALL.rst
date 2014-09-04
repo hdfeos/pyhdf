@@ -2,18 +2,12 @@
 Installing pyhdf
 ================
 
-``pyhdf`` has been successfully installed under Python 2.4 and above on
+``pyhdf`` has been successfully installed under Python 2.7 and above on
 several platforms, including 
 
-* Windows XP
+* Windows 7
 
 * Linux 2.4.19
-
-* Tru64 4.0.f
-
-* Solaris 8
-
-* AIX 4
 
 * MacOSX 10.5.
 

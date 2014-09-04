@@ -9,6 +9,6 @@ script: ./runexamples.sh
 notifications:
   email:
     recipients:
-      - fshahriar@gmail.com
+      - eoshelp@hdfgroup.org
     on_success: never
     on_failure: change
