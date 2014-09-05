@@ -11,7 +11,7 @@ pyhdf is a fork of python-hdf4_ with some improvements:
 - Sphinx documentation
 - Planned: unit tests
 
-python-hdf4 is a python wrapper around the HDF version 4 library.
+pyhdf is a python wrapper around the latest HDF version 4 library.
 The SD (Scientific Dataset), VS (Vdata) and V (Vgroup) APIs 
 are currently implemented. netCDF files can also be 
 read and modified.
@@ -38,3 +38,4 @@ Examples
 
 Example python programs using the pyhdf package
 can be found inside the examples/ subdirectory.
+

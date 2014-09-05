@@ -12,7 +12,7 @@ several platforms, including
 * Mac OS X Mavericks
 
 Please open an issue here if you encounter any problems during installation:
-https://github.com/hdfeos/pyhdf/issues
+http://hdfeos.org/forum
 
 
 Installation Guide
