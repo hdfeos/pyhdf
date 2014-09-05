@@ -123,18 +123,18 @@ _hdfext = Extension('pyhdf._hdfext',
                     )
 
 if sys.platform == 'win32':
-    data_files = [("pyhdf", [dll_path + x for x in ["hdf.dll", "mfhdf.dll"]])]
+    data_files = [("pyhdf", [dll_path + x for x in ["hdf.dll", "mfhdf.dll", "xdr.dll", "jpeg.dll", "zlib.dll", "szip.dll"]])]
 else:
     data_files = []
 
 setup(name         = 'pyhdf',
       author       = 'HDF-EOS Tools and Information Center',
       author_email = 'eoshelp@hdfgroup.org',
-      description  = 'Python interface to the NCSA HDF4 library',
+      description  = 'Python interface to the HDF4 library',
       keywords     = ['hdf4', 'netcdf', 'numpy', 'python', 'pyhdf'],
       license      = 'public',
       long_description = 'The pyhdf package wraps the functionality\n '
-                         'of the NCSA HDF version 4 library inside a Python OOP\n '
+                         'of the HDF version 4 library inside a Python OOP\n '
                          'framework. The SD (scientific dataset), VS\n '
                          '(Vdata) and V (Vgroup) APIs are currently implemented.\n '
                          'SD datasets are read/written\n '

@@ -1,10 +1,10 @@
-.. image:: https://travis-ci.org/fhs/python-hdf4.svg?branch=master
-    :target: https://travis-ci.org/fhs/python-hdf4
+.. image:: https://travis-ci.org/hdfeos/pyhdf.svg?branch=master
+    :target: https://travis-ci.org/hdfeos/pyhdf
 
 Overview
 ========
 
-python-hdf4 is a fork of pyhdf_ with some improvements:
+pyhdf is a fork of python-hdf4_ with some improvements:
 
 - Various bug fixes: removes use of deprecated numpy API, python 2.7 compatibility, etc.
 - Adds support for Python 3, while keeping compatibility with Python 2.
@@ -16,7 +16,8 @@ The SD (Scientific Dataset), VS (Vdata) and V (Vgroup) APIs
 are currently implemented. netCDF files can also be 
 read and modified.
 
-.. _pyhdf: http://pysclint.sourceforge.net/pyhdf/
+.. _python-hdf4: https://github.com/fhs/python-hdf4
+
 
 Installation
 ============
@@ -26,7 +27,7 @@ To install, see file `INSTALL.rst <INSTALL.rst>`_.
 Documentation
 =============
 
-For documentation, see http://fhs.github.io/python-hdf4/
+For documentation, see http://hdfeos.github.io/pyhdf/
 
 Additional documentation on the HDF4 format can be
 found in the User Guide:
