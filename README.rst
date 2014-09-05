@@ -6,10 +6,10 @@ Overview
 
 pyhdf is a fork of python-hdf4_ with some improvements:
 
-- Various bug fixes: removes use of deprecated numpy API, python 2.7 compatibility, etc.
-- Adds support for Python 3, while keeping compatibility with Python 2.
-- Sphinx documentation
-- Planned: unit tests
+- Reusing the original project name.
+- Windows build can use the latest (4.2.10) HDF4 library form The HDF Group.
+- Testing against Anaconda.
+
 
 pyhdf is a python wrapper around the latest HDF version 4 library.
 The SD (Scientific Dataset), VS (Vdata) and V (Vgroup) APIs 
